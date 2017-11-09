@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  
+    <classes>
+      <class name="com.tys.tests.ValidLoginLogoutTest"/>
+      <class name="com.tys.tests.AddToCartTest"/>
+      <class name="com.tys.tests.UpdateAddressTest"/>
+      <class name="com.tys.tests.ScrollTest"/>
+      <class name="com.tys.tests.CurrencySymbolTest"/>
+      <class name="com.tys.tests.WishListTest"/>
+      <class name="com.tys.tests.MetalFilterTest"/>
+      <class name="com.tys.tests.RemoveItemTest"/>
+      <class name="com.tys.tests.ProductSearchTest"/>
+      <class name="com.tys.tests.PriceFilterTest"/>
+      <class name="com.tys.tests.AutoSuggetionTest"/>
+      <class name="com.tys.tests.InvalidLogTest"/>
+      <class name="com.tys.tests.verifyTooltipTest"/>
+      <class name="com.tys.tests.SignupTest"/>
+      <class name="com.tys.tests.PlaceOrderTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

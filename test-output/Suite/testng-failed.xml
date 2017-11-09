@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.tys.tests.ProductSearchTest">
+        <methods>
+          <include name="searchProductTest"/>
+          <include name="setPath"/>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- com.tys.tests.ProductSearchTest -->
+      <class name="com.tys.tests.SignupTest">
+        <methods>
+          <include name="setPath"/>
+          <include name="closeApp"/>
+          <include name="signUPTest"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- com.tys.tests.SignupTest -->
+      <class name="com.tys.tests.AutoSuggetionTest">
+        <methods>
+          <include name="setPath"/>
+          <include name="autoSuggTest"/>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- com.tys.tests.AutoSuggetionTest -->
+      <class name="com.tys.tests.UpdateAddressTest">
+        <methods>
+          <include name="setPath"/>
+          <include name="closeApp"/>
+          <include name="addressUpdateTest"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- com.tys.tests.UpdateAddressTest -->
+      <class name="com.tys.tests.PlaceOrderTest">
+        <methods>
+          <include name="setPath"/>
+          <include name="placeOrderTest"/>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- com.tys.tests.PlaceOrderTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
