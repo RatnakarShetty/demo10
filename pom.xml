@@ -4,6 +4,7 @@
 	<groupId>BlogQ</groupId>
 	<artifactId>BlogQ</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 
